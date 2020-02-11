@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     You are logged in! --}}
-                    <a href="{{route("siswa.create")}}" class="btn btn-dark">
+                    <a href="{{route("siswa.create")}}" class="btn btn-outline-danger float-right">
                             Tambah Data (+)
                         </a>
 

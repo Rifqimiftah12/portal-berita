@@ -32,8 +32,8 @@
                                 <input type="text" name="kelas" required>
                             </div>
                         </div>
-                        <button class="btn btn-primary" type="submit">Simpan</button>
-                        <button class="btn btn-primary" type="reset">Reset</button
+                        <button class="btn btn-outline-danger" type="submit">Simpan</button>
+                        <button class="btn btn-outline-success" type="reset">Reset</button
                     </form>
                 </div>
             </div>

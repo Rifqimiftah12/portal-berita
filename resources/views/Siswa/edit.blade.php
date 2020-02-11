@@ -33,8 +33,9 @@
                                 <input type="text" name="kelas" value="{{$siswa->kelas}}" required>
                             </div>
                         </div>
-                        <button class="btn btn-primary" type="submit">Simpan</button>
-                        <button class="btn btn-primary" type="reset">Reset</button
+                        <button class="btn btn-outline-primary" type="submit">Simpan</button>
+                        <button class="btn btn-outline-warning" type="reset">Reset</button>
+                        <button class="btn btn-outline-danger" type="" href="{{route("siswa.index")}}">Back</button>
                     </form>
                 </div>
             </div>

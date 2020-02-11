@@ -29,6 +29,9 @@
                                 <input type="text" name="kelas" value="{{$siswa->kelas}}" readonly>
                             </div>
                         </div>
+                        <a href="{{route("siswa.index")}}" class="btn btn-outline-dark float-right">
+                                Back
+                            </a>
                 </div>
             </div>
         </div>
