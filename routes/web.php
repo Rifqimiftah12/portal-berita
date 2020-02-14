@@ -80,6 +80,7 @@ Route::get('penulis' ,function(){
     Route::resource('siswa','SiswaController');
     Route::get('tabungan/report','TabunganController@jumlah_tabungan');
     Route::resource('tabungan', 'TabunganController');
+    Route::resource('hobi', 'HobiController');
 
 Auth::routes();
 

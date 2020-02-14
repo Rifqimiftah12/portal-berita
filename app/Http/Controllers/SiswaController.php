@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Siswa;
+use App\Hobi;
 use Illuminate\Http\Request;
 
 class SiswaController extends Controller
@@ -25,7 +26,8 @@ class SiswaController extends Controller
      */
     public function create()
     {
-        return view('Siswa.create');
+        $hobi = Hobi::all();
+        return view('Siswa.create', compact('hobi'));
     }
 
     /**
